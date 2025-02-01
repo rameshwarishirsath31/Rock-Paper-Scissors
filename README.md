@@ -36,8 +36,4 @@ This is a simple Rock, Paper, Scissors game built with HTML, CSS and JavaScript.
 
 ![alt text](<Screenshot (1145).png>)
 
-# Visit this link to play the game
-
-https://akankshap-rock-paper-scissors.netlify.app/
-
 Enjoy the game! 🥳
