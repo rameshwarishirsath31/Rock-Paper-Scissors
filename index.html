@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+<body>
+    <h1>Rock <i class="fa-solid fa-hand-back-fist" style="color: #dfc39f;"></i> Paper <i class="fa-solid fa-hand"
+            style="color: #dfc39f;"></i> Scissors <i class="fa-solid fa-hand-scissors" style="color: #dfc39f;"></i></h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="images/rock.png" alt="Rock Image">
+            <p>Rock</p>
+        </div>
+        <div class="choice" id="paper">
+            <img src="images/paper.png" alt="Paper Image">
+            <p>Paper</p>
+        </div>
+        <div class="choice" id="scissor">
+            <img src="images/scissors.png" alt="Scissors Image">
+            <p>Scissors</p>
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You <i class="fa-solid fa-person"></i></p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Bot <i class="fa-solid fa-robot"></i></p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p class="msg">Play the Game with me :)</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
